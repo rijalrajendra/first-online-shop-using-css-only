@@ -152,3 +152,77 @@ img{
     border-radius: 15px;
 
 }
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #fieldset {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #gendermfo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #button {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 900px) {
+
+    nav a {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 90%;
+    }
+
+    #fieldset {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #button {
+        font-size: 25px;
+    }
+}
+@media (min-width: 1200px) {
+
+    .contact input,
+    .contact textarea {
+        width: 60%;
+    }
+
+    #fieldset {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
